@@ -12,10 +12,10 @@ namespace Student.DataAccess.Services.Contexts
          
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-            //{
-            //    optionsBuilder.UseSqlServer("Server=.;Initial Catalog=StudentDemo; TrustServerCertificate=True; Trusted_Connection=True;");
-            //}
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=.;Initial Catalog=StudentDemo; TrustServerCertificate=True; Trusted_Connection=True;");
+            }
         }
 
         public DbSet<ST::Student> Students { get; set; }

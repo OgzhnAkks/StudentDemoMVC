@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Student.Business.Services.Services.Abstract;
 using Student.Business.Services.Utilities;
 using Student.Entity.Services.Models.Dto;

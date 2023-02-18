@@ -4,11 +4,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Student.DataAccess.Services.Contexts;
 using Student.DataAccess.Services.Repositores.Abstract;
 using Student.DataAccess.Services.Repositores.Implementation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Student.DataAccess.Services.IoC
 {
